@@ -7,4 +7,5 @@ From a Java programming point of view, there are 2 objects. The Sud.java program
 
 This program requires Jackson to handle the JSON input files, and Apache FOP to make the PDF output file. Both sets of JAR's must be present for compilation and execution.
 
+Jackson JAR files can be found in my AUTHOR program here on GitHub.
 
