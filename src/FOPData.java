@@ -8,6 +8,13 @@ import org.apache.commons.math3.stat.descriptive.moment.StandardDeviation;
 import org.apache.commons.math3.stat.descriptive.moment.Skewness;
 import org.apache.commons.math3.stat.descriptive.moment.Variance;
 
+/*
+ * This Java program created by Robert Swanson
+ * bobswansonp@protonmail.com
+ * It is being made freely available on GitHub under the MIT license, 2019
+ *
+ */
+
 public class FOPData 
 {
 //    private static final String CELL_CONTENT_BLOCK =    "<fo:block text-align=\"center\">";
