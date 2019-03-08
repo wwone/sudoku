@@ -36,6 +36,10 @@ import org.apache.fop.apps.PageSequenceResults;
  * Sudoku processor
  * 3/13/2018
  *
+ * This program was created by Robert Swanson
+ * bobswansonp@protonmail.com
+ * It is being made freely available on GitHub under the MIT license, 2019
+ *
  * CHANGED to use Jackson as the JSON reader
  * 
  * ADDED FOP processor invocation, so that the final 
