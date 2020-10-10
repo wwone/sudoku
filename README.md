@@ -11,4 +11,10 @@ BFOJson JAR files should be available here on GitHub. See:
 
   https://github.com/faceless2/json
 
+FOP JAR file is available at:
 
+https://xmlgraphics.apache.org/fop/download.html
+
+The FOP JAR files must be stored in a particular
+location, see the "runit.sh" and "compit.sh" 
+scripts.
