@@ -7,5 +7,8 @@ From a Java programming point of view, there are 2 objects. The Sud.java program
 
 This program requires BFOJson (see GitHub) to handle the JSON input files, and Apache FOP to make the PDF output file. Both sets of JAR's must be present for compilation and execution.
 
-BFOJson JAR files should be available here on GitHub.
+BFOJson JAR files should be available here on GitHub. See:
+
+  https://github.com/faceless2/json
+
 
