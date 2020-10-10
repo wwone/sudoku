@@ -9,12 +9,12 @@ import org.apache.commons.math3.stat.descriptive.moment.Skewness;
 import org.apache.commons.math3.stat.descriptive.moment.Variance;
 
 /*
- * This Java program created by Robert Swanson
- * bobswansonp@protonmail.com
- * It is being made freely available on GitHub under the MIT license, 2019
+ * updated
+ * Thu 27 Aug 2020 02:45:14 PM CDT
  *
+ * Necessary geometry and other coding required to actually
+ * draw a Sudoku using FOP to make it into a PDF file
  */
-
 public class FOPData 
 {
 //    private static final String CELL_CONTENT_BLOCK =    "<fo:block text-align=\"center\">";
@@ -165,7 +165,7 @@ public class FOPData
             for (int inner=0 ; inner < count.intValue() ; inner++)
             {
                 // make one each
-                valuesx.add(new Double(position));
+                valuesx.add(Double.valueOf(position));
             }
         }
         // convert Doubles to double array
