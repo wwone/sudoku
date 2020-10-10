@@ -5,7 +5,7 @@ Raw input is in 2 JSON files, one for the existing solutions, and one for "confi
 
 From a Java programming point of view, there are 2 objects. The Sud.java program now creates PDF output directly, because it invokes the Apache FOP system. There is a helper object that formats the FOP XML structure used to make the PDF.
 
-This program requires Jackson to handle the JSON input files, and Apache FOP to make the PDF output file. Both sets of JAR's must be present for compilation and execution.
+This program requires BFOJson (see GitHub) to handle the JSON input files, and Apache FOP to make the PDF output file. Both sets of JAR's must be present for compilation and execution.
 
-Jackson JAR files can be found in my AUTHOR program here on GitHub.
+BFOJson JAR files should be available here on GitHub.
 
