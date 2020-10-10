@@ -1,0 +1,60 @@
+{
+## "NOT USED, only for documentation",
+## "THESE COMMENTS DELETED BEFORE USE BY JAVA PROGRAM",
+## "updated 8/13/2019  ",
+## "will contain options that drive the sudoku program",
+## "",
+## "options are keyword and value pairs",
+##
+## "'givens' will be ignored if frequency specified",
+## "",
+## "'switch rows and columns' is number to switch, a",
+## "number from 1 to 3. 0 means no switching",
+## 
+## "'removal' flags are yes or no",
+## "'rotate' flag is yes or no",
+## "'randomize' flag is yes or no",
+## "'output' flag currently is ONLY numbers, could be letters",
+## 
+## "'puzzle' is number (0-based) of puzzle wanted, or 'any'",
+##"frequency","HARD", "testing",
+##"output","letters",
+##"randomizenumbers","yes",
+##"organizenumbers","random",
+##"organizenumbers","order",
+##"frequency","EASY",
+##"frequency","MEDIUM",
+##"frequency","EASY",
+##"frequency","HARD",
+##"frequency","012345678",
+##"frequency","222222222",
+## difficult "frequency","006666666",
+## difficult "frequency","001234567",
+## good challenge "frequency","002345678",
+## strange, but just fill in first 3 or so without worry, later more challenging "frequency","000000999",
+## actually difficult"frequency","002345666",
+## fun, but difficult "frequency","000077777",
+##"givens","28"
+
+"options":[
+	{
+"removerow":"no",
+"removecolumn":"false",
+"removebox":"no",
+"removesinglevalue":"no",
+"rotate":"true",
+"organizenumbers":"random",
+"switchcols":"1",
+"switchrows":"2",
+"frequency":"MEDIUM",
+"frequencynotused":"123456789",
+"frequencynotused":"HARD",
+"frequencynotused":"MEDIUM",
+"frequencynotused":"EASY",
+"output":"numbers",
+"puzzle":"any"
+	}
+]
+
+}
+
